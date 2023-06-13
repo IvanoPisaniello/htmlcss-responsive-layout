@@ -18,7 +18,7 @@ body {
 
 
 .container {
-    min-width: 380px;
+    min-width: 100%;
     width: 80%;
     margin: 0 auto;
 }
@@ -217,9 +217,11 @@ section {
 
 /* tablet */
 
+
+
 @media screen and (min-width:768px) {
     .container {
-        min-width: 768px;
+        min-width: 100%;
         width: 80%;
     }
 
