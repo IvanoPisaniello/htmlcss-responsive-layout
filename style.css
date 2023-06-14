@@ -28,6 +28,11 @@ body {
     padding-right: 30px;
 }
 
+.container-footer {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
 .d-flex {
     display: flex;
 }
@@ -55,9 +60,13 @@ body {
     background-color: var(--secondary-color);
 }
 
-.btn-white {}
+.btn-white {
+    background-color: white;
+}
 
-.btn-large {}
+.btn-large {
+    padding: 1rem 5rem;
+}
 
 .circle-btn {
     height: 50px;
@@ -79,8 +88,16 @@ body {
     color: var(--secondary-color);
 }
 
+.txt-yellow {
+    color: gold;
+}
+
 .txt-center {
     text-align: center;
+}
+
+.txt-black {
+    color: black;
 }
 
 .paddingtb20 {
@@ -102,6 +119,14 @@ body {
 
 .txt-left {
     text-align: left;
+}
+
+header li {
+    line-height: 30px;
+}
+
+.rem-1-8 {
+    font-size: 1.8rem;
 }
 
 /* header */
@@ -142,13 +167,47 @@ li {
     display: none;
 }
 
+.btn-nav {
+    vertical-align: middle;
+    line-height: 9px;
+    padding: .8rem 1rem;
+}
+
+/* bonus */
+.hamburger-menu {
+    position: absolute;
+    top: 70px;
+    left: 0%;
+    min-width: 100%;
+
+    display: none;
+}
+
+.menu:focus+.hamburger-menu {
+    display: block;
+}
+
+.hamburger-menu li {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+
+}
+
+.ham {
+    background-color: #0084FD;
+    width: 100%;
+    justify-content: space-around;
+}
+
 /* main-sections */
 
 
 section {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    border: 1px dashed blue;
     min-height: 500px;
 }
 
@@ -159,6 +218,10 @@ section {
     gap: 2rem;
 }
 
+.row-no-wrap {
+    flex-wrap: nowrap;
+}
+
 .img-card {
     justify-content: center;
     align-items: flex-end;
@@ -167,7 +230,6 @@ section {
 .col {
     /* flex-grow: 1;
     flex-basis: 0; */
-    border: 1px dashed red;
     border-radius: 20px;
     min-height: 300px;
     padding: 30px;
@@ -184,8 +246,10 @@ section {
 }
 
 .demo-title {
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
+
+
 
 .demo-title p {
     margin-top: 10px;
@@ -258,6 +322,10 @@ p {
     text-align: center;
 }
 
+.demo-title h2 {
+    text-align: left;
+}
+
 
 /* strategic-section */
 
@@ -306,6 +374,10 @@ p {
     background-image: url(img/testimonial3.jpg);
 }
 
+.circles-photo-about-us {
+    background-image: url(img/about.jpg);
+}
+
 .circles {
     justify-content: center;
     align-items: center;
@@ -337,7 +409,21 @@ p {
     width: 100%;
 }
 
+.about-txt p {
+    font-size: 1.5rem;
+}
+
+
+.circles-photo-about-us i {
+    font-size: 60px;
+    margin-left: 100px;
+}
+
 /* footer */
+.copy {
+    font-size: 0.8rem;
+}
+
 .footer-info {
     background-color: var(--dark-color);
     min-height: 200px;
@@ -348,6 +434,11 @@ p {
 }
 
 .circle {
+    justify-content: center;
+}
+
+.btn-footer {
+    display: flex;
     justify-content: center;
 }
 
@@ -389,6 +480,12 @@ p {
         max-width: 656px;
         margin: 0 auto;
     }
+
+    .demo-title h2 {
+        text-align: left;
+    }
+
+
 
     /* testimonial */
 
