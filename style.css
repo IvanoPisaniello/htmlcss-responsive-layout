@@ -343,6 +343,8 @@ section {
 
     }
 
-
+    .strategic-section .col {
+        width: 100%;
+    }
 
 }
