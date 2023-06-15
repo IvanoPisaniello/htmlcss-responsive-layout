@@ -183,6 +183,7 @@ li {
     display: none;
 }
 
+
 .menu:focus+.hamburger-menu {
     display: block;
 }
